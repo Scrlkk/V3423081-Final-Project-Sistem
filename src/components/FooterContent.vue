@@ -7,25 +7,31 @@
         <div class="text-2xl font-bold">{Finsweet</div>
 
         <div class="flex space-x-4">
-          <a href="/" class="underline hover:no-underline hover:text-x-yellow"
-            >Home</a
-          >
-          <a href="/Blog" class="underline hover:no-underline hover:text-x-yellow"
-            >Blog</a
-          >
-          <a href="/AboutUs" class="underline hover:no-underline hover:text-x-yellow"
-            >About us</a
-          >
-          <a
-            href="/Contact"
-            class="underline hover:no-underline hover:text-x-yellow"
-            >Contact us</a
-          >
-          <a
-            href="/Privacy-Policy"
-            class="underline hover:no-underline hover:text-x-yellow"
-            >Privacy Policy</a
-          >
+          <router-link to="/">
+            <a class="underline hover:no-underline hover:text-x-yellow">Home</a>
+          </router-link>
+
+          <router-link to="/Blog">
+            <a class="underline hover:no-underline hover:text-x-yellow">Blog</a>
+          </router-link>
+
+          <router-link to="/AboutUs">
+            <a class="underline hover:no-underline hover:text-x-yellow"
+              >About us</a
+            >
+          </router-link>
+
+          <router-link to="/Contact">
+            <a class="underline hover:no-underline hover:text-x-yellow"
+              >Contact us</a
+            >
+          </router-link>
+
+          <router-link to="/Privacy-Policy">
+            <a class="underline hover:no-underline hover:text-x-yellow"
+              >Privacy Policy</a
+            >
+          </router-link>
         </div>
       </div>
 
@@ -52,23 +58,17 @@
         </div>
       </div>
 
-      <div
-        class="px-12 py-6 flex flex-row justify-between items-center text-sm space-y-0"
-      >
-        <div>
-          <a href="#" class="underline"> Finstreet 118 2561 Fintown <br /> </a>
-          <a href="#" class="underline">Hello@finsweet.com 020 7993 2905</a>
+      <div class="px-12 py-6 flex flex-row justify-between text-sm space-y-0">
+        <div class="flex flex-col justify-start">
+          <p>Finstreet 118 2561 Fintown <br /></p>
+          <p>Hello@finsweet.com 020 7993 2905</p>
         </div>
 
         <!-- LOGO -->
         <div class="flex items-center gap-6">
           <!-- FACEBOOK -->
-          <a
-            href="#"
-            aria-label="Find us on Facebook"
-            target="_blank"
-            rel="noopener"
-          >
+
+          <button>
             <svg
               class="h-5 w-5 text-gray-500 hover:text-gray-300 transition-colors"
               viewBox="0 0 48 48"
@@ -80,15 +80,10 @@
                 fill="currentColor"
               ></path>
             </svg>
-          </a>
+          </button>
 
           <!-- TWITTER -->
-          <a
-            href="#"
-            aria-label="Find us on Twitter"
-            target="_blank"
-            rel="noopener"
-          >
+          <button>
             <svg
               class="h-5 w-5 text-gray-500 hover:text-gray-300 transition-colors"
               viewBox="0 0 48 40"
@@ -100,15 +95,10 @@
                 fill="currentColor"
               />
             </svg>
-          </a>
+          </button>
 
           <!-- INSTAGRAM -->
-          <a
-            href="#"
-            aria-label="Find us on Instagram"
-            target="_blank"
-            rel="noopener"
-          >
+          <button>
             <svg
               class="h-5 w-5 text-gray-500 hover:text-gray-300 transition-colors"
               viewBox="0 0 48 48"
@@ -124,15 +114,10 @@
                 fill="currentColor"
               />
             </svg>
-          </a>
+          </button>
 
           <!-- LINKEDIN -->
-          <a
-            href="#"
-            aria-label="Find us on LinkedIn"
-            target="_blank"
-            rel="noopener"
-          >
+          <button>
             <svg
               class="h-5 w-5 text-gray-500 hover:text-gray-300 transition-colors"
               viewBox="0 0 48 48"
@@ -144,7 +129,7 @@
                 fill="currentColor"
               ></path>
             </svg>
-          </a>
+          </button>
         </div>
       </div>
     </div>

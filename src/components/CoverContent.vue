@@ -45,12 +45,13 @@ import CoverImage from '@/assets/images/misc/cover.png'
         dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident.
       </p>
-      <a
-        href="/Blog"
-        class="gap-3 px-12 py-5 mt-12 mb-0 text-lg leading-none font-bold bg-blue-600 text-white hover:bg-x-yellow transition duration-150 ease-in-out z-20"
-      >
-        Read More &gt;
-      </a>
+      <router-link to="/Blog" class="z-20">
+        <button
+          class="gap-3 px-12 py-5 mt-12 mb-0 text-lg leading-none font-bold bg-blue-600 text-white hover:bg-x-yellow transition duration-150 ease-in-out z-20"
+        >
+          Read More &gt;
+        </button>
+      </router-link>
     </div>
   </div>
 </template>

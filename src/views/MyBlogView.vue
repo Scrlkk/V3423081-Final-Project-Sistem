@@ -7,10 +7,10 @@ import Join from '@/components/Join.vue'
 </script>
 
 <template>
-    <MainLayout>
-        <Title />
-        <Post />
-        <Card />
-        <Join />
-    </MainLayout>
+  <MainLayout>
+    <Title />
+    <Post />
+    <Card />
+    <Join />
+  </MainLayout>
 </template>

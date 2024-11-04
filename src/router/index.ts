@@ -4,8 +4,8 @@ import Author from '../views/AuthorView.vue'
 import Blog from '../views/BlogView.vue'
 import Privacy from '@/components/Privacy.vue'
 import Contact from '@/components/ContactUs.vue'
-import Category from '../views/CategoryView.vue' 
-import BlogView from '../views/MyBlogView.vue' 
+import Category from '../views/CategoryView.vue'
+import BlogView from '../views/MyBlogView.vue'
 import About from '../views/AboutUsView.vue'
 
 const router = createRouter({

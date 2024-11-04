@@ -55,38 +55,44 @@
     </svg>
     <ul class="flex gap-4">
       <li>
-        <a
-          href="/"
-          class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-          >Home</a
-        >
+        <router-link to="/">
+          <a
+            class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
+            >Home</a
+          >
+        </router-link>
       </li>
       <li>
-        <a
-          href="/Blog"
-          class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-          >Blog</a
-        >
+        <router-link to="/Blog">
+          <a
+            class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
+            >Blog</a
+          >
+        </router-link>
       </li>
       <li>
-        <a
-          href="AboutUs"
-          class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-          >About Us</a
-        >
+        <router-link to="/AboutUs">
+          <a
+            class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
+            >About Us</a
+          >
+        </router-link>
       </li>
       <li>
-        <a
-          href="/Contact"
-          class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
-          >Contact Us</a
-        >
+        <router-link to="/Contact">
+          <a
+            class="text-white hover:text-x-yellow transition duration-150 ease-in-out"
+            >Contact Us</a
+          >
+        </router-link>
       </li>
     </ul>
-    <a
-      href="/Contact"
-      class="bg-x-blue px-4 py-2 rounded-full text-white hover:bg-x-yellow transition duration-150 ease-in-out"
-      >Contact Us</a
-    >
+
+    <router-link to="/Contact">
+      <a
+        class="bg-x-blue px-4 py-2 rounded-full text-white hover:bg-x-yellow transition duration-150 ease-in-out"
+        >Contact Us</a
+      >
+    </router-link>
   </nav>
 </template>

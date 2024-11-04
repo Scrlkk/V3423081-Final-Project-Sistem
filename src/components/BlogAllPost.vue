@@ -63,8 +63,8 @@ const Posts = ref([
     </div>
 
     <div class="pt-10 flex justify-center font-bold text-2xl gap-5">
-      <a href="" class="text-gray-500">&lt; Prev</a>
-      <a href="" class="hover:scale-105">Next &gt;</a>
+      <button class="text-gray-500">&lt; Prev</button>
+      <button class="hover:scale-105">Next &gt;</button>
     </div>
   </section>
 </template>

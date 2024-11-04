@@ -41,7 +41,7 @@ import Join from '@/components/Join.vue'
                 <!-- LOGO -->
                 <div class="flex items-center gap-5 scale-75 mt-4">
                   <!-- FACEBOOK -->
-                  <a href="#" aria-label="Facebook">
+                  <button aria-label="Facebook">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -53,10 +53,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       ></path>
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- TWITTER -->
-                  <a href="" aria-label="Twitter">
+                  <button aria-label="Twitter">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 40"
@@ -68,10 +68,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- INSTAGRAM -->
-                  <a href="" aria-label="Instagram">
+                  <button aria-label="Instagram">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -87,10 +87,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- LINKEDIN -->
-                  <a href="" aria-label="LinkedIn">
+                  <button aria-label="LinkedIn">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -102,7 +102,7 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       ></path>
                     </svg>
-                  </a>
+                  </button>
                 </div>
               </div>
             </router-link>
@@ -133,7 +133,7 @@ import Join from '@/components/Join.vue'
                 <!-- LOGO -->
                 <div class="flex items-center gap-5 scale-75 mt-4">
                   <!-- FACEBOOK -->
-                  <a href="#" aria-label="Facebook">
+                  <button aria-label="Facebook">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -145,10 +145,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       ></path>
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- TWITTER -->
-                  <a href="" aria-label="Twitter">
+                  <button aria-label="Twitter">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 40"
@@ -160,10 +160,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- INSTAGRAM -->
-                  <a href="" aria-label="Instagram">
+                  <button aria-label="Instagram">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -179,10 +179,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- LINKEDIN -->
-                  <a href="" aria-label="LinkedIn">
+                  <button aria-label="LinkedIn">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -194,7 +194,7 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       ></path>
                     </svg>
-                  </a>
+                  </button>
                 </div>
               </div>
             </router-link>
@@ -225,7 +225,7 @@ import Join from '@/components/Join.vue'
                 <!-- LOGO -->
                 <div class="flex items-center gap-5 scale-75 mt-4">
                   <!-- FACEBOOK -->
-                  <a href="#" aria-label="Facebook">
+                  <button aria-label="Facebook">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -237,10 +237,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       ></path>
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- TWITTER -->
-                  <a href="" aria-label="Twitter">
+                  <button aria-label="Twitter">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 40"
@@ -252,10 +252,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- INSTAGRAM -->
-                  <a href="" aria-label="Instagram">
+                  <button aria-label="Instagram">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -271,10 +271,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- LINKEDIN -->
-                  <a href="" aria-label="LinkedIn">
+                  <button aria-label="LinkedIn">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -286,7 +286,7 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       ></path>
                     </svg>
-                  </a>
+                  </button>
                 </div>
               </div>
             </router-link>
@@ -317,7 +317,7 @@ import Join from '@/components/Join.vue'
                 <!-- LOGO -->
                 <div class="flex items-center gap-5 scale-75 mt-4">
                   <!-- FACEBOOK -->
-                  <a href="#" aria-label="Facebook">
+                  <button aria-label="Facebook">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -329,10 +329,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       ></path>
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- TWITTER -->
-                  <a href="" aria-label="Twitter">
+                  <button aria-label="Twitter">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 40"
@@ -344,10 +344,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- INSTAGRAM -->
-                  <a href="" aria-label="Instagram">
+                  <button aria-label="Instagram">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -363,10 +363,10 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       />
                     </svg>
-                  </a>
+                  </button>
 
                   <!-- LINKEDIN -->
-                  <a href="" aria-label="LinkedIn">
+                  <button aria-label="LinkedIn">
                     <svg
                       class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                       viewBox="0 0 48 48"
@@ -378,7 +378,7 @@ import Join from '@/components/Join.vue'
                         fill="currentColor"
                       ></path>
                     </svg>
-                  </a>
+                  </button>
                 </div>
               </div>
             </router-link>

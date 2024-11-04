@@ -134,7 +134,6 @@ const Posts = ref([
         <!-- 1 -->
         <div class="flex flex-wrap gap-5">
           <button
-            href="#"
             class="font-bold text-sm text-gray-500 flex-grow inline-flex items-center justify-center px-6 py-3 outline outline-gray-400 rounded-full shadow hover:shadow-xl hover:-translate-y-1 hover:scale-105 hover:bg-[#075EFD] hover:outline-none hover:outline-1 hover:text-white transition duration-200 ease-in-out"
           >
             Business
@@ -142,7 +141,6 @@ const Posts = ref([
 
           <!-- 2 -->
           <button
-            href="#"
             class="font-bold text-sm text-gray-500 flex-grow inline-flex items-center justify-center px-6 outline outline-gray-400 rounded-full shadow hover:shadow-xl hover:-translate-y-1 hover:scale-105 hover:bg-amber-300 hover:outline-none hover:outline-1 hover:text-white transition duration-200 ease-in-out"
           >
             Experience
@@ -150,7 +148,6 @@ const Posts = ref([
 
           <!-- 3 -->
           <button
-            href="#"
             class="font-bold text-sm text-gray-500 grow-0 inline-flex items-center justify-center px-6 py-3 outline outline-gray-400 rounded-full shadow hover:shadow-xl hover:-translate-y-1 hover:scale-105 hover:bg-amber-300 hover:outline-none hover:outline-1 hover:text-white transition duration-200 ease-in-out"
           >
             Screen
@@ -158,7 +155,6 @@ const Posts = ref([
 
           <!-- 4 -->
           <button
-            href="#"
             class="font-bold text-sm text-gray-500 flex-grow inline-flex items-center justify-center outline outline-gray-400 rounded-full shadow hover:shadow-xl hover:-translate-y-1 hover:scale-105 hover:bg-[#075EFD] hover:outline-none hover:outline-1 hover:text-white transition duration-200 ease-in-out"
           >
             Technology
@@ -166,7 +162,6 @@ const Posts = ref([
 
           <!-- 5 -->
           <button
-            href="#"
             class="font-bold text-sm text-gray-500 flex-grow inline-flex items-center justify-center px-4 py-2 outline outline-gray-400 rounded-full shadow hover:shadow-xl hover:-translate-y-1 hover:scale-105 hover:bg-[#075EFD] hover:outline-none hover:outline-1 hover:text-white transition duration-200 ease-in-out"
           >
             Marketing
@@ -174,7 +169,6 @@ const Posts = ref([
 
           <!-- 6 -->
           <button
-            href="#"
             class="font-bold text-sm text-gray-500 flex-grow inline-flex items-center justify-center px-7 py-2 outline outline-gray-400 rounded-full shadow hover:shadow-xl hover:-translate-y-1 hover:scale-105 hover:bg-amber-300 hover:outline-none hover:outline-1 hover:text-white transition duration-200 ease-in-out"
           >
             Life

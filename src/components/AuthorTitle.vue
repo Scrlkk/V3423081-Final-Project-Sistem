@@ -30,7 +30,7 @@ import Author from '@/assets/images/misc/author.png'
             <!-- LOGO -->
             <div class="flex items-center gap-4">
               <!-- FACEBOOK -->
-              <a href="#" aria-label="Facebook">
+              <button aria-label="Facebook">
                 <svg
                   class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                   viewBox="0 0 48 48"
@@ -42,10 +42,10 @@ import Author from '@/assets/images/misc/author.png'
                     fill="currentColor"
                   ></path>
                 </svg>
-              </a>
+              </button>
 
               <!-- TWITTER -->
-              <a href="" aria-label="Twitter">
+              <button aria-label="Twitter">
                 <svg
                   class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                   viewBox="0 0 48 40"
@@ -57,10 +57,10 @@ import Author from '@/assets/images/misc/author.png'
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </button>
 
               <!-- INSTAGRAM -->
-              <a href="" aria-label="Instagram">
+              <button aria-label="Instagram">
                 <svg
                   class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                   viewBox="0 0 48 48"
@@ -76,10 +76,10 @@ import Author from '@/assets/images/misc/author.png'
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </button>
 
               <!-- LINKEDIN -->
-              <a href="" aria-label="LinkedIn">
+              <button aria-label="LinkedIn">
                 <svg
                   class="h-5 w-5 text-black hover:text-gray-500 transition-colors"
                   viewBox="0 0 48 48"
@@ -91,7 +91,7 @@ import Author from '@/assets/images/misc/author.png'
                     fill="currentColor"
                   ></path>
                 </svg>
-              </a>
+              </button>
             </div>
           </div>
         </div>

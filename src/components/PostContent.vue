@@ -40,7 +40,9 @@ const Posts = ref([
         Featured Post
       </h2>
 
-      <article class="mt-8 mb-5 flex flex-col w-[94%] hover:scale-105 transition duration-300 ease-in-out">
+      <article
+        class="mt-8 mb-5 flex flex-col w-[94%] hover:scale-105 transition duration-300 ease-in-out"
+      >
         <div
           class="flex flex-col items-start p-8 mx-auto w-full font-bold border border-solid border-black-500"
         >
@@ -63,7 +65,7 @@ const Posts = ref([
             cupidatat non proident.
           </p>
           <a
-          href="/MyBlog"
+            href="/MyBlog"
             class="gap-3 px-12 py-4 mt-8 text-lg leading-none text-white bg-blue-600 hover:bg-x-yellow transition duration-150 ease-in-out"
           >
             Read More &gt;
@@ -80,9 +82,9 @@ const Posts = ref([
         >
           All Posts
         </h2>
-        <a href="#" class="my-auto text-base leading-7 text-amber-300"
-          >View All</a
-        >
+        <button class="my-auto text-base leading-7 text-amber-300">
+          View All
+        </button>
       </div>
 
       <!-- KANAN BAWAH -->

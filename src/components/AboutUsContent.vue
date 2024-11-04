@@ -23,27 +23,36 @@
             <h3 class="mt-6 text-4xl tracking-tighter leading-10 max-w-[31rem]">
               We are a community of content writers who share their learnings
             </h3>
-            <p class="font-inter mt-4 mr-6 leading-7 font-light text-zinc-500 max-w-[31rem]">
+            <p
+              class="font-inter mt-4 mr-6 leading-7 font-light text-zinc-500 max-w-[31rem]"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a
-              href="/AboutUs"
-              class="self-start mt-7 text-lg leading-8 text-amber-300"
-            >
-              Read More &gt;
-            </a>
+            <router-link to="/AboutUs">
+              <button
+                class="self-start mt-7 text-lg leading-8 text-amber-300"
+              >
+                Read More &gt;
+              </button>
+            </router-link>
           </div>
         </article>
         <article class="flex flex-col ml-5 w-6/12">
           <div class="flex flex-col items-start text-base text-gray-800">
-            <h2 class="font-bold font-inter leading-none uppercase tracking-[3px]">
+            <h2
+              class="font-bold font-inter leading-none uppercase tracking-[3px]"
+            >
               Our mision
             </h2>
-            <h3 class="mt-6 text-3xl font-bold tracking-tighter leading-10 max-w-[29rem]">
+            <h3
+              class="mt-6 text-3xl font-bold tracking-tighter leading-10 max-w-[29rem]"
+            >
               Creating valuable content for creatives all around the world
             </h3>
-            <p class="font-inter self-stretch mt-4 leading-7 text-zinc-500 max-w-[510px]">
+            <p
+              class="font-inter self-stretch mt-4 leading-7 text-zinc-500 max-w-[510px]"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
